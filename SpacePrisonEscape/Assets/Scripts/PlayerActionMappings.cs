@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Scripts/New Controls.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Scripts/PlayerActionMappings.inputactions'
 
 using System;
 using System.Collections;
@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-public class @NewControls : IInputActionCollection, IDisposable
+public class @PlayerActionMappings : IInputActionCollection, IDisposable
 {
     public InputActionAsset asset { get; }
-    public @NewControls()
+    public @PlayerActionMappings()
     {
         asset = InputActionAsset.FromJson(@"{
-    ""name"": ""New Controls"",
+    ""name"": ""PlayerActionMappings"",
     ""maps"": [
         {
             ""name"": ""LandMovement"",
@@ -36,7 +36,7 @@ public class @NewControls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""Rotate"",
-                    ""type"": ""Button"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""74c70a7f-87c4-41d0-bfb4-259e1342f639"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
@@ -185,8 +185,8 @@ public class @NewControls : IInputActionCollection, IDisposable
     private readonly InputAction m_LandMovement_Rotate;
     public struct LandMovementActions
     {
-        private @NewControls m_Wrapper;
-        public LandMovementActions(@NewControls wrapper) { m_Wrapper = wrapper; }
+        private @PlayerActionMappings m_Wrapper;
+        public LandMovementActions(@PlayerActionMappings wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_LandMovement_Move;
         public InputAction @Jump => m_Wrapper.m_LandMovement_Jump;
         public InputAction @Rotate => m_Wrapper.m_LandMovement_Rotate;

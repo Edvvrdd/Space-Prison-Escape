@@ -23,7 +23,7 @@
                 },
                 {
                     "name": "Rotate",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "74c70a7f-87c4-41d0-bfb4-259e1342f639",
                     "expectedControlType": "Button",
                     "processors": "",
