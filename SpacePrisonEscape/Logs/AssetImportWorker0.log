@@ -214,3 +214,4 @@ Received Import Request.
 Start importing Packages/com.unity.ugui using Guid(8f7652e09069a1943278893d4264401e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be8eef517426cf4e5d1ef023f0f7cab') in 0.009972 seconds 
   Import took 0.015130 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
