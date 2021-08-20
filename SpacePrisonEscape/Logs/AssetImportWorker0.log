@@ -150,3 +150,28 @@ Received Import Request.
 Start importing Assets/Scenes/TestLevel.unity using Guid(8439e8120c00ff7459b0cd8e93854111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a9c59431545f91df7f0f9e2747d7e6') in 0.013692 seconds 
   Import took 0.017009 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 96.385674 seconds.
+  path: Assets/Kenny/kenney_pixelplatformer
+  artifactKey: Guid(3ccbcc612f9b1d74ba2de32db934ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_pixelplatformer using Guid(3ccbcc612f9b1d74ba2de32db934ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5502064dfcafb3fb29220bdf9f1a1bb') in 0.007402 seconds 
+  Import took 0.010708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.261780 seconds.
+  path: Assets/Kenny/abstract-platformer-370-assets
+  artifactKey: Guid(4260620f907f92a43b804c080377d070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/abstract-platformer-370-assets using Guid(4260620f907f92a43b804c080377d070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a864e2ce47bba0f62a59993349c5d4e') in 0.006742 seconds 
+  Import took 0.009943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 930.131655 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial (2)
+  artifactKey: Guid(36db9767918f86749b71897555234058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial (2) using Guid(36db9767918f86749b71897555234058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6ffcc75965431938b64273ebdd9007') in 0.007480 seconds 
+  Import took 0.011888 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
