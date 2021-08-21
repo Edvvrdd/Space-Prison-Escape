@@ -251,8 +251,8 @@ Transform:
   m_LocalPosition: {x: 2.28, y: 1.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1434336867}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1226353372
 GameObject:
@@ -367,9 +367,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1946569566}
-  - {fileID: 1103883936}
+  m_Children: []
   m_Father: {fileID: 1447643139}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1117,6 +1115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a8988c1855bfb24f93e215f6f7573a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentSceneName: TestLevel
   rotationSpeed: 15
   SpawnLoacation: {fileID: 1613386290}
   ObjectArray:
@@ -1377,6 +1376,6 @@ Transform:
   m_LocalPosition: {x: -2.61, y: 1.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1434336867}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

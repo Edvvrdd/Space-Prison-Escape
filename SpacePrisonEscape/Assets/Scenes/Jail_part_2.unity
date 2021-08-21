@@ -9909,6 +9909,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a8988c1855bfb24f93e215f6f7573a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ReplayButton: {fileID: 0}
+  NextLevelButton: {fileID: 0}
   CurrentSceneName: Jail_part_2
   rotationSpeed: 45
   SpawnLoacation: {fileID: 1224986494}
@@ -10100,6 +10102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca0c50a681d0714d981c5ca848bb299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextLevelSceneName: Jail_part_1
 --- !u!61 &1936436904
 BoxCollider2D:
   m_ObjectHideFlags: 0
