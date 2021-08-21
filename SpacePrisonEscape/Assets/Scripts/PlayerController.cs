@@ -110,21 +110,30 @@ public class PlayerController : MonoBehaviour
         if (IsOnSwitch())
         {
             Debug.Log("OnSwitch");
-            //  GetComponentInChildren<SpriteRenderer>()
+            //rotate player using enivronment rotation 
 
-            if (RotationInput != 0)
+           // this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+                //GetComponent<Rigidbody>();
+                //This locks the RigidBody so that it does not move or rotate in the Z axis.
+          //  m_Rigidbody.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
             {
                 if (RotationInput < 0)
                 {
                     Debug.Log("Reciving Left Rotation Input");
                     // Rotate the object around its local X axis at 1 degree per second
                     RotatableEnvironment.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
+                    this.transform.parent = RotatableEnvironment.transform;
+                   this.GetComponent<Rigidbody2D>().gravityScale = 0;
+                  //  this.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
                 }
                 if (RotationInput > 0)
                 {
                     Debug.Log("Reciving Left Rotation Input");
                     // Rotate the object around its local X axis at 1 degree per second
                     RotatableEnvironment.transform.Rotate(Vector3.forward * -1 * rotationSpeed * Time.deltaTime);
+                    this.transform.parent = RotatableEnvironment.transform;
+                    this.GetComponent<Rigidbody2D>().gravityScale = 0;
+                    //this.transform.Rotate(Vector3.forward * -1 * rotationSpeed * Time.deltaTime);
                 }
 
 
@@ -133,6 +142,13 @@ public class PlayerController : MonoBehaviour
 
             }
             // }
+        }
+        else
+        {
+            // unlock freezing 
+            this.transform.parent = null;
+            this.GetComponent<Rigidbody2D>().gravityScale = 1;
+            // this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         }
     }
 }
