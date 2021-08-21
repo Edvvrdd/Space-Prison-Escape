@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class LevelController : MonoBehaviour
 {
     //making variable of type player action controls
     private PlayerActionMappings playerControlBindings;
+
+    [SerializeField] private System.String CurrentSceneName;
 
     [SerializeField] private float rotationSpeed;
 
@@ -38,6 +42,8 @@ public class LevelController : MonoBehaviour
     void Start()
     {
         playerControlBindings.LandMovement.Jump.performed += _ => Jump();
+
+        playerControlBindings.LandMovement.Reset.performed += _ => Reset();
         //Display Player Objective
         //"Create a patyh to the exit"
 
@@ -52,6 +58,12 @@ public class LevelController : MonoBehaviour
         //after finish rotating level player may pawn
         SpawnPlayer();
     }
+
+    private void Reset()
+    {
+        SceneManager.LoadScene(CurrentSceneName);
+    }
+
     private void Stasis()
     {
         for (int i = 0; i < ObjectArray.Length; i++)
@@ -78,8 +90,9 @@ public class LevelController : MonoBehaviour
         if(!HasRotated)
         {
             float RotationInput = playerControlBindings.LandMovement.Rotate.ReadValue<float>();
+            float RotationInputWASD = playerControlBindings.LandMovement.Move.ReadValue<float>();
 
-            if (RotationInput < 0)
+            if ((RotationInput < 0) || (RotationInputWASD < 0))
             {
                 Debug.Log("Reciving Left Rotation Input");
                 // Rotate the object around its local X axis at 1 degree per second
@@ -88,7 +101,7 @@ public class LevelController : MonoBehaviour
                 this.GetComponent<Rigidbody2D>().gravityScale = 0;
                 //  this.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
             }
-            if (RotationInput > 0)
+            if ((RotationInput > 0) || (RotationInputWASD > 0))
             {
                 Debug.Log("Reciving Left Rotation Input");
                 // Rotate the object around its local X axis at 1 degree per second
