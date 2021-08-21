@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: 8326335745380329578}
   - component: {fileID: 8326335745380329582}
   - component: {fileID: 8326335745380329581}
-  - component: {fileID: 696847128915835683}
+  - component: {fileID: 7217155682904248278}
   m_Layer: 0
   m_Name: PlayerCharacter
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +100,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0005399622, y: 0}
+  m_Offset: {x: -0.00059807673, y: -0.002990514}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -111,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.10717011, y: 0.24}
+  m_Size: {x: 0.1443026, y: 0.23282257}
   m_EdgeRadius: 0
 --- !u!50 &8326335745380329578
 Rigidbody2D:
@@ -127,7 +127,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.03
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -175,7 +175,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!70 &696847128915835683
+--- !u!70 &7217155682904248278
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,6 +188,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.24000002, y: 0.24000002}
+  m_Offset: {x: -0.00089713495, y: -0.004485819}
+  m_Size: {x: 0.19633804, y: 0.23102836}
   m_Direction: 0
