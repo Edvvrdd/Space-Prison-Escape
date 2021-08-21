@@ -13,7 +13,7 @@ TagManager:
   - UI
   - Ground
   - EnvOverlap
-  - Button
+  - RotationSwitch
   - 
   - 
   - 
@@ -40,7 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Button
-    uniqueID: 720372961
     locked: 0
