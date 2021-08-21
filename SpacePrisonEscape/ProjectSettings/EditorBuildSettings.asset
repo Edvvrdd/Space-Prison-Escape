@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jail_part_1.unity
     guid: 3de1f0ddffdd23742bab1364218a4936
+  - enabled: 1
+    path: Assets/Scenes/Caf_part_1.unity
+    guid: 56d916e581d011d459cf1ec4b6dfb981
   m_configObjects: {}
