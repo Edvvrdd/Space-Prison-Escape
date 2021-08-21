@@ -9,9 +9,16 @@ public class LevelController : MonoBehaviour
 
     [SerializeField] private float rotationSpeed;
 
-    [SerializeField] GameObject[] ObjectArray;
+    [SerializeField] private Transform SpawnLoacation;
+
+
+    [SerializeField] private GameObject[] ObjectArray;
+
+    [SerializeField] private GameObject PlayerSpawn;
+
 
     private bool HasRotated = false;
+    private bool HasSpawnedPlayer = false;
 
     private void Awake()
     {
@@ -34,18 +41,37 @@ public class LevelController : MonoBehaviour
         //Display Player Objective
         //"Create a patyh to the exit"
 
-      
+
 
     }
+    
     private void Jump()
+    {
+        // using action map to freeze all objects in level
+        Stasis();
+        //after finish rotating level player may pawn
+        SpawnPlayer();
+    }
+    private void Stasis()
     {
         for (int i = 0; i < ObjectArray.Length; i++)
         {
             Debug.Log("Box # " + i);
             ObjectArray[i].GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         }
+
         HasRotated = true;
     }
+    private void SpawnPlayer()
+        {
+        //Spawn Player at spawnLocation
+        if (!HasSpawnedPlayer)
+        {
+            Instantiate(PlayerSpawn, SpawnLoacation.position, Quaternion.identity);
+            HasSpawnedPlayer = true;
+        }
+    }
+
 
     void Update()
     {
