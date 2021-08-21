@@ -8341,7 +8341,7 @@ GameObject:
   - component: {fileID: 279907818}
   - component: {fileID: 279907817}
   m_Layer: 5
-  m_Name: ShipOut
+  m_Name: ShipOut_Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8390,7 +8390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!331 &1117935832
 SpriteMask:
   m_ObjectHideFlags: 0
@@ -8565,6 +8565,46 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -1, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 3
+      m_TileSpriteIndex: 3
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 6, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -8615,6 +8655,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 3
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 9, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -8631,6 +8681,16 @@ Tilemap:
       m_TileIndex: 2
       m_TileSpriteIndex: 2
       m_TileMatrixIndex: 1
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 3
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -8653,6 +8713,10 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 1f63ae05a670ede44a9ef57cdace759f, type: 2}
   - m_RefCount: 5
     m_Data: {fileID: 11400000, guid: 275e4acbad9888b40ad213d00871b5e1, type: 2}
+  - m_RefCount: 4
+    m_Data: {fileID: 11400000, guid: b1fda677894b9e543b4c14e4b3c31af3, type: 2}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 10bf7a08ce36fdc4a86cc48b73bd7f78, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: -5633746423298546789, guid: 565f852431d8402458cf48531934caa3, type: 3}
@@ -8660,6 +8724,10 @@ Tilemap:
     m_Data: {fileID: -4666756510880264869, guid: 565f852431d8402458cf48531934caa3, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: -5679681372999991991, guid: 565f852431d8402458cf48531934caa3, type: 3}
+  - m_RefCount: 4
+    m_Data: {fileID: 21300000, guid: d2b9c14f474b2b34f9ffbfccccdfa846, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: 21300000, guid: d61df1cb1be476345bd26dca09dac767, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 4
     m_Data:
@@ -8715,14 +8783,32 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
+  - m_RefCount: 6
+    m_Data:
+      e00: 1.45
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1.45
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_TileColorArray:
-  - m_RefCount: 10
+  - m_RefCount: 16
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: -3, z: 0}
-  m_Size: {x: 16, y: 5, z: 1}
+  m_Origin: {x: -1, y: -3, z: 0}
+  m_Size: {x: 17, y: 5, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -8770,7 +8856,7 @@ GameObject:
   - component: {fileID: 1402261906}
   - component: {fileID: 1402261908}
   m_Layer: 0
-  m_Name: ShipIn
+  m_Name: ShipIn_Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8817,7 +8903,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 100
+  SpawnLoacation: {fileID: 0}
   ObjectArray: []
+  PlayerSpawn: {fileID: 0}
 --- !u!1 &1686708447
 GameObject:
   m_ObjectHideFlags: 0
