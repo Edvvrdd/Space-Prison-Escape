@@ -41,6 +41,14 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Climb"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""acecff1d-e6de-49cb-85ee-7c3862b49f24"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -120,6 +128,39 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                     ""action"": ""Rotate"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""97015e80-f969-4ee2-be5e-76ed35dbcab7"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Climb"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""d93d444c-c012-49d6-8e05-7f1fbaa9ac93"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Climb"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""2eba072f-cb5d-4874-9011-fccdfec765c9"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Climb"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -131,6 +172,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         m_LandMovement_Move = m_LandMovement.FindAction("Move", throwIfNotFound: true);
         m_LandMovement_Jump = m_LandMovement.FindAction("Jump", throwIfNotFound: true);
         m_LandMovement_Rotate = m_LandMovement.FindAction("Rotate", throwIfNotFound: true);
+        m_LandMovement_Climb = m_LandMovement.FindAction("Climb", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -183,6 +225,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
     private readonly InputAction m_LandMovement_Move;
     private readonly InputAction m_LandMovement_Jump;
     private readonly InputAction m_LandMovement_Rotate;
+    private readonly InputAction m_LandMovement_Climb;
     public struct LandMovementActions
     {
         private @PlayerActionMappings m_Wrapper;
@@ -190,6 +233,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         public InputAction @Move => m_Wrapper.m_LandMovement_Move;
         public InputAction @Jump => m_Wrapper.m_LandMovement_Jump;
         public InputAction @Rotate => m_Wrapper.m_LandMovement_Rotate;
+        public InputAction @Climb => m_Wrapper.m_LandMovement_Climb;
         public InputActionMap Get() { return m_Wrapper.m_LandMovement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -208,6 +252,9 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                 @Rotate.started -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnRotate;
                 @Rotate.performed -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnRotate;
                 @Rotate.canceled -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnRotate;
+                @Climb.started -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnClimb;
+                @Climb.performed -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnClimb;
+                @Climb.canceled -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnClimb;
             }
             m_Wrapper.m_LandMovementActionsCallbackInterface = instance;
             if (instance != null)
@@ -221,6 +268,9 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                 @Rotate.started += instance.OnRotate;
                 @Rotate.performed += instance.OnRotate;
                 @Rotate.canceled += instance.OnRotate;
+                @Climb.started += instance.OnClimb;
+                @Climb.performed += instance.OnClimb;
+                @Climb.canceled += instance.OnClimb;
             }
         }
     }
@@ -230,5 +280,6 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnRotate(InputAction.CallbackContext context);
+        void OnClimb(InputAction.CallbackContext context);
     }
 }

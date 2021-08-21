@@ -1,0 +1,852 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/GameDev/Udemy Unity File/Space-Prison-Escape/SpacePrisonEscape
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49853
+Successfully changed project path to: E:/GameDev/Udemy Unity File/Space-Prison-Escape/SpacePrisonEscape
+E:/GameDev/Udemy Unity File/Space-Prison-Escape/SpacePrisonEscape
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 98.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GameDev/Udemy Unity File/Space-Prison-Escape/SpacePrisonEscape/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002936 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 98.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.502 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1502ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (177ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1320ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (382ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2449 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.5 MB.
+System memory in use after: 110.6 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2891.
+Total: 4.136900 ms (FindLiveObjects: 0.292800 ms CreateObjectMapping: 0.073300 ms MarkObjects: 3.678400 ms  DeleteObjects: 0.090900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Jail_part_1.unity
+  artifactKey: Guid(a664fd5e19b6d7141a6df1963dfec67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jail_part_1.unity using Guid(a664fd5e19b6d7141a6df1963dfec67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d64d6a451386164f612fa810988bd5') in 0.028935 seconds 
+  Import took 0.033626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.521834 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(e9c2624490834404ab2da56e55e57107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(e9c2624490834404ab2da56e55e57107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4aeda6286f43a401db1ddf923ebd5f') in 0.034574 seconds 
+  Import took 0.039525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004194 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(e9c2624490834404ab2da56e55e57107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(e9c2624490834404ab2da56e55e57107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4aeda6286f43a401db1ddf923ebd5f') in 0.004151 seconds 
+  Import took 0.008941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.486628 seconds.
+  path: Assets/Kenny/kenney_digitalaudio
+  artifactKey: Guid(3b732fd4b8d166644b373e2eaea67e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_digitalaudio using Guid(3b732fd4b8d166644b373e2eaea67e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916ced0d68c5b34124fee62afaed1265') in 0.013387 seconds 
+  Import took 0.018124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404353 seconds.
+  path: Assets/Kenny/kenney_pixelplatformer
+  artifactKey: Guid(3ccbcc612f9b1d74ba2de32db934ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_pixelplatformer using Guid(3ccbcc612f9b1d74ba2de32db934ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6304eb30d7df7baf5d9a637a3b8b484') in 0.012206 seconds 
+  Import took 0.016873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.125364 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_003.png
+  artifactKey: Guid(1bcf8cbb0e039ea45ad979040899080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_003.png using Guid(1bcf8cbb0e039ea45ad979040899080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c181a4ed51887184ebdfdb646ca5ecd2') in 0.091306 seconds 
+  Import took 0.096266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_060.png
+  artifactKey: Guid(0c00992095698804a96712e7fb9f4b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_060.png using Guid(0c00992095698804a96712e7fb9f4b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b53ce2acbf08b78591689c77ff2219') in 0.022506 seconds 
+  Import took 0.027617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_061.png
+  artifactKey: Guid(19e76634d30186b40a68492c35c15837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_061.png using Guid(19e76634d30186b40a68492c35c15837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c63babcab1d043aef25f5ef64d872d') in 0.024140 seconds 
+  Import took 0.029112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_042.png
+  artifactKey: Guid(2590b70d5afe8e145861024eb49e0afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_042.png using Guid(2590b70d5afe8e145861024eb49e0afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0df2f60f73e1585e8351207fa4fb1d') in 0.026472 seconds 
+  Import took 0.031636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_044.png
+  artifactKey: Guid(abca9767fab5c154d838e79a70a46768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_044.png using Guid(abca9767fab5c154d838e79a70a46768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8abed646d6e09142a03a647d626e8a7') in 0.025591 seconds 
+  Import took 0.030455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_049.png
+  artifactKey: Guid(88621c19631208846997277d4dd2b225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_049.png using Guid(88621c19631208846997277d4dd2b225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb84756ffd2e2ac274e4faef57b65f3') in 0.025550 seconds 
+  Import took 0.030314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_053.png
+  artifactKey: Guid(8d61635a7e7a0e84f893c467e759cc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_053.png using Guid(8d61635a7e7a0e84f893c467e759cc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f4b27c99b1fdda26738b9fb836f763') in 0.021635 seconds 
+  Import took 0.026381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_035.png
+  artifactKey: Guid(64afbe65b35c4784a9b7675ac64d212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_035.png using Guid(64afbe65b35c4784a9b7675ac64d212c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e43bfbd87f34070de267856419608f') in 0.023061 seconds 
+  Import took 0.028037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_046.png
+  artifactKey: Guid(a3d7a0083b9e2634d965af8e1227c5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_046.png using Guid(a3d7a0083b9e2634d965af8e1227c5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27151e22d7f9096a4de5f6b1ea5746a3') in 0.028478 seconds 
+  Import took 0.033220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_038.png
+  artifactKey: Guid(17dc33e8391ad2c46b6584d590aba70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_038.png using Guid(17dc33e8391ad2c46b6584d590aba70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d505dca44306524ac905eaa7354cf7') in 0.023300 seconds 
+  Import took 0.027736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_007.png
+  artifactKey: Guid(cbb80935f1b5ac641be2fe95f6df83d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_007.png using Guid(cbb80935f1b5ac641be2fe95f6df83d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5edc0600d762301e7b8abf9e020521') in 0.021519 seconds 
+  Import took 0.026248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_059.png
+  artifactKey: Guid(534fdb74b8fce94439743f84e169a2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_059.png using Guid(534fdb74b8fce94439743f84e169a2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69be714dd2b15e786ccb2e75ec7df57e') in 0.023898 seconds 
+  Import took 0.028627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_040.png
+  artifactKey: Guid(e52d12480cb820846983ed602c5fbc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_040.png using Guid(e52d12480cb820846983ed602c5fbc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb9eccf4c3fadb4179695828dc4c67f') in 0.025537 seconds 
+  Import took 0.030499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_025.png
+  artifactKey: Guid(8dfde7c3e4403734ab1f79da115fe8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_025.png using Guid(8dfde7c3e4403734ab1f79da115fe8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244e34d5b853ccfef1a2c35f61f6950d') in 0.025152 seconds 
+  Import took 0.029775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_041.png
+  artifactKey: Guid(32afac50bd410b64d8dcda05072d49fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_041.png using Guid(32afac50bd410b64d8dcda05072d49fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13673f7b31b8f9d32c4d8bc8f0622e2') in 0.021919 seconds 
+  Import took 0.026822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_043.png
+  artifactKey: Guid(a7bf8c7c7bd78364d9b7570e6a744940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_043.png using Guid(a7bf8c7c7bd78364d9b7570e6a744940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090238352935e5dc814e3a9784241e2a') in 0.023515 seconds 
+  Import took 0.028255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_014.png
+  artifactKey: Guid(3396026b9ee89184d86ed38a2bd110cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_014.png using Guid(3396026b9ee89184d86ed38a2bd110cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648e960921630c15ba00ce9180efb5f0') in 0.028492 seconds 
+  Import took 0.033129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_058.png
+  artifactKey: Guid(99fc93f05dbef3846a810969b80ce1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_058.png using Guid(99fc93f05dbef3846a810969b80ce1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba2401f5a0c6468505a05333a52d6fa') in 0.026662 seconds 
+  Import took 0.031690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_011.png
+  artifactKey: Guid(6d1e6e40c50ffe2418da697e947c1e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_011.png using Guid(6d1e6e40c50ffe2418da697e947c1e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a0266c0fcb82c2d768f3cde29c8f74') in 0.023935 seconds 
+  Import took 0.028601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_010.png
+  artifactKey: Guid(40b9fa5f7d47e324b9e8ca147d882905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_010.png using Guid(40b9fa5f7d47e324b9e8ca147d882905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c7cea73c01a0f0012e78729da1e4ed') in 0.022391 seconds 
+  Import took 0.026857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_027.png
+  artifactKey: Guid(879ef4329371fc94089dd6b0f26104e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_027.png using Guid(879ef4329371fc94089dd6b0f26104e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5600141dd0c9e54bf70b232abccb28') in 0.021081 seconds 
+  Import took 0.026675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_030.png
+  artifactKey: Guid(7f6164f34e75db1428f0f50c8ae60d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_030.png using Guid(7f6164f34e75db1428f0f50c8ae60d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc54b4ae3d464cd22b86c443329a5a29') in 0.021314 seconds 
+  Import took 0.025926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_031.png
+  artifactKey: Guid(87304b3033862ee4286f3d39e18d398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_031.png using Guid(87304b3033862ee4286f3d39e18d398b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b6694ffb97d2c8516babd60614273f') in 0.020175 seconds 
+  Import took 0.024659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_012.png
+  artifactKey: Guid(1e37ec87e33b9374ebb5ca49a65fc782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_012.png using Guid(1e37ec87e33b9374ebb5ca49a65fc782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f33c8e0249df40e9774da7f562dbde') in 0.023657 seconds 
+  Import took 0.028583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_024.png
+  artifactKey: Guid(9200638295780c54695cafef80e29422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_024.png using Guid(9200638295780c54695cafef80e29422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b03612946d1b0d740efb077a7728db') in 0.027826 seconds 
+  Import took 0.032308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_028.png
+  artifactKey: Guid(202a4c77a60ffb7428f83fe057a7b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_028.png using Guid(202a4c77a60ffb7428f83fe057a7b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481b626242363d60fa7e0b4f7ac5305e') in 0.028131 seconds 
+  Import took 0.033390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_020.png
+  artifactKey: Guid(9586a9dae5d3ace4da57f633182e2e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_020.png using Guid(9586a9dae5d3ace4da57f633182e2e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58326aed55a138bd23104a6c4e70915') in 0.029868 seconds 
+  Import took 0.034671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_021.png
+  artifactKey: Guid(2f24131bc59c1db48b9fcbd2750f4349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_021.png using Guid(2f24131bc59c1db48b9fcbd2750f4349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73eb57911381a4bde7dd771e3c61211f') in 0.030269 seconds 
+  Import took 0.034962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_008.png
+  artifactKey: Guid(47d7236077e944042aa640ea5bc1fd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_008.png using Guid(47d7236077e944042aa640ea5bc1fd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc3a0aa38b0070bea50b1435db516bf') in 0.026490 seconds 
+  Import took 0.030847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_036.png
+  artifactKey: Guid(fde647f4be382b24bbb26ac4dff91a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_036.png using Guid(fde647f4be382b24bbb26ac4dff91a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e170ddda6e5405aa41733d12d1c95ff8') in 0.024288 seconds 
+  Import took 0.029016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_052.png
+  artifactKey: Guid(a572974a502dd764bba13e962fc61ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_052.png using Guid(a572974a502dd764bba13e962fc61ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1db8d61898f7ae1a6c77c5f7f19db57') in 0.022616 seconds 
+  Import took 0.027249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_009.png
+  artifactKey: Guid(f894e7662287df84b90be8799bc93616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_009.png using Guid(f894e7662287df84b90be8799bc93616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46211b9775512086e9e5ed40ddef3031') in 0.023234 seconds 
+  Import took 0.028029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_056.png
+  artifactKey: Guid(24a1d1e1da455fd4ea08ccf1bd11b8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_056.png using Guid(24a1d1e1da455fd4ea08ccf1bd11b8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3af2c67be94820b3c8be90e01d9e532') in 0.027097 seconds 
+  Import took 0.031855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_017.png
+  artifactKey: Guid(f16df104da74ae94d836bc5ed95f3802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_017.png using Guid(f16df104da74ae94d836bc5ed95f3802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9cdeee90c618f15b85e7961af89944') in 0.028231 seconds 
+  Import took 0.032454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_055.png
+  artifactKey: Guid(a7eb123660ae3f04c8caa8bf7e9a26b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_055.png using Guid(a7eb123660ae3f04c8caa8bf7e9a26b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e4bde3b2f20650046a074e1d59a3ef') in 0.023890 seconds 
+  Import took 0.028259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_051.png
+  artifactKey: Guid(4e4b13b27223b8549be5335f25dd9e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_051.png using Guid(4e4b13b27223b8549be5335f25dd9e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90b12aa3b3a24a4afc9b481905d91c7') in 0.026679 seconds 
+  Import took 0.031301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_026.png
+  artifactKey: Guid(d3f5dec1f77c71c4c94f449b601b15dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_026.png using Guid(d3f5dec1f77c71c4c94f449b601b15dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54a02b6e8cc4dbc714f2e8916a94c11') in 0.030139 seconds 
+  Import took 0.035170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_050.png
+  artifactKey: Guid(0256c584217f7594d8a6a2b7242c6d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_050.png using Guid(0256c584217f7594d8a6a2b7242c6d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dd71ecfc52f02e82c6459ded59ba3e') in 0.020294 seconds 
+  Import took 0.025027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_033.png
+  artifactKey: Guid(727b706e335c24f478fa5d9637437e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_033.png using Guid(727b706e335c24f478fa5d9637437e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8557fed5e3ffacc3ea4591287959e789') in 0.024345 seconds 
+  Import took 0.029023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_072.png
+  artifactKey: Guid(03f96ef81a6768d45b10158525fe03d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_072.png using Guid(03f96ef81a6768d45b10158525fe03d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e839f0d08bf050a7b96714a866196b') in 0.031603 seconds 
+  Import took 0.036154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_075.png
+  artifactKey: Guid(86a76275f0dae7b43b7c6c2f89f270eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_075.png using Guid(86a76275f0dae7b43b7c6c2f89f270eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb3ed9e1fd180a96c56c67341de33ab') in 0.024754 seconds 
+  Import took 0.029437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_091.png
+  artifactKey: Guid(2fd1e377f4fc9e640b536f02a4b0eab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_091.png using Guid(2fd1e377f4fc9e640b536f02a4b0eab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36ce3b00cc32154921247b000c2728b') in 0.029206 seconds 
+  Import took 0.033810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_086.png
+  artifactKey: Guid(96cde7aa900b1e54a802d91660cb2739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_086.png using Guid(96cde7aa900b1e54a802d91660cb2739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b36dab3ab33f3c33a11861e7ab0f4d0') in 0.027129 seconds 
+  Import took 0.031709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_084.png
+  artifactKey: Guid(6fb62ba883ebc4049881cd39261dff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_084.png using Guid(6fb62ba883ebc4049881cd39261dff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21051fcdc9d48be25ac0cc0ec9939204') in 0.029736 seconds 
+  Import took 0.034311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_089.png
+  artifactKey: Guid(0e12502b2e5fae544a4d685bce935ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_089.png using Guid(0e12502b2e5fae544a4d685bce935ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e8bb25ab72eebbd2a0d5487f3636a4') in 0.026632 seconds 
+  Import took 0.031296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_064.png
+  artifactKey: Guid(a6e09150084c9414b8941293245add11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_064.png using Guid(a6e09150084c9414b8941293245add11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6653aad3af151c532c9deddbc6b6067') in 0.022355 seconds 
+  Import took 0.027266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_068.png
+  artifactKey: Guid(e70ad332e518b0540917fa74856fd6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_068.png using Guid(e70ad332e518b0540917fa74856fd6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75b970b93a39d64afdb39dc221b372d') in 0.021099 seconds 
+  Import took 0.026201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_074.png
+  artifactKey: Guid(d5b9e614425391744980d9e85ff30613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_074.png using Guid(d5b9e614425391744980d9e85ff30613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3779c11c1ac390da53c02f508744715') in 0.023964 seconds 
+  Import took 0.028849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_077.png
+  artifactKey: Guid(59fe7366d5deb5643b585de26b1023d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_077.png using Guid(59fe7366d5deb5643b585de26b1023d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6380c44a1cbe915823231deac5b7bc') in 0.024902 seconds 
+  Import took 0.029890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_083.png
+  artifactKey: Guid(1e1cad12b8e582542a08b2784a5c0e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_083.png using Guid(1e1cad12b8e582542a08b2784a5c0e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47a87e740fae57e367e88ace7b6899a') in 0.026281 seconds 
+  Import took 0.030872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_070.png
+  artifactKey: Guid(295f7631695580d4b8e3706f9572e912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_070.png using Guid(295f7631695580d4b8e3706f9572e912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b352968e75b4f53c80e1813311f46b') in 0.026550 seconds 
+  Import took 0.031977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_085.png
+  artifactKey: Guid(38bc9dbda71fd7a4c87fea35f6704c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_085.png using Guid(38bc9dbda71fd7a4c87fea35f6704c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302e67e12dab26321570f99369fde3ba') in 0.026461 seconds 
+  Import took 0.031283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_062.png
+  artifactKey: Guid(4b4d896cb00db004cb602530a461fa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_062.png using Guid(4b4d896cb00db004cb602530a461fa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392cf0de3b0942fb3ae4d686fbbc2df9') in 0.023546 seconds 
+  Import took 0.028479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_079.png
+  artifactKey: Guid(a567d162ecc2e5d4c993afbd9c69c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_079.png using Guid(a567d162ecc2e5d4c993afbd9c69c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a07109d05bc3cc387c86f6b063b2cc') in 0.022563 seconds 
+  Import took 0.027395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_065.png
+  artifactKey: Guid(8088e658219175f4a82a785cd0bbf0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_065.png using Guid(8088e658219175f4a82a785cd0bbf0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad04ce5d9659f062dd19348368eba4c') in 0.022765 seconds 
+  Import took 0.027563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_066.png
+  artifactKey: Guid(6fddd6b30f2fa44429e04a19148a24c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_066.png using Guid(6fddd6b30f2fa44429e04a19148a24c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da06870cf2b138a187f3106627a1aa4') in 0.021578 seconds 
+  Import took 0.027032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_047.png
+  artifactKey: Guid(7175f46684433064189cd2aaeeb30913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_047.png using Guid(7175f46684433064189cd2aaeeb30913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f5b6e6ca1855d2f2a7d095f938aecc') in 0.024443 seconds 
+  Import took 0.029915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_076.png
+  artifactKey: Guid(c486517b78600b14ea3b34f5ada1851e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_076.png using Guid(c486517b78600b14ea3b34f5ada1851e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2f38aa297eddbe23da7352dc966892') in 0.035893 seconds 
+  Import took 0.040587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_013.png
+  artifactKey: Guid(f276e07fa22bd6445a9ebd1c0d7de223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_013.png using Guid(f276e07fa22bd6445a9ebd1c0d7de223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7868fc36148594ccd73d235623a4844') in 0.041258 seconds 
+  Import took 0.045692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_045.png
+  artifactKey: Guid(d54ae9d6ad8b5c649812853c2b9db97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_045.png using Guid(d54ae9d6ad8b5c649812853c2b9db97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa55fed9d32abf0673075a121f53c510') in 0.026316 seconds 
+  Import took 0.030557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_048.png
+  artifactKey: Guid(e20366abbe3022e45b687a6633b91b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_048.png using Guid(e20366abbe3022e45b687a6633b91b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1c7ff6dc0f6f6c0474a794bc68ecf1') in 0.026263 seconds 
+  Import took 0.030953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_054.png
+  artifactKey: Guid(177f02d67cc88bd4db20dc3d6b56fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_054.png using Guid(177f02d67cc88bd4db20dc3d6b56fc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbb9bcc34c52d2a20f900a84df79543') in 0.026506 seconds 
+  Import took 0.031545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_057.png
+  artifactKey: Guid(9364ed7c67c7b6547b24e0bde7a59d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_057.png using Guid(9364ed7c67c7b6547b24e0bde7a59d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9282dec464c065778e74038ac01cd5f1') in 0.028038 seconds 
+  Import took 0.032979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_067.png
+  artifactKey: Guid(9bb97edc6e3dd46429b1f96999e84ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_067.png using Guid(9bb97edc6e3dd46429b1f96999e84ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad453164772faf85722905991edb41e') in 0.028393 seconds 
+  Import took 0.033212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_071.png
+  artifactKey: Guid(ef3e4f26ae297ac4983bedbd22f1fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_071.png using Guid(ef3e4f26ae297ac4983bedbd22f1fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19328b0d22e92758b763e82932da11a4') in 0.027915 seconds 
+  Import took 0.033214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_022.png
+  artifactKey: Guid(6e141e9e484b33d4486e551d137a6a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_022.png using Guid(6e141e9e484b33d4486e551d137a6a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9317349a5f477edd93fcf10bfe97a64b') in 0.027093 seconds 
+  Import took 0.031677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_006.png
+  artifactKey: Guid(4184ac66a0ffb0342b8220f13386fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_006.png using Guid(4184ac66a0ffb0342b8220f13386fdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a099d14104e5d8ec475cfbea55f986b') in 0.030709 seconds 
+  Import took 0.035036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_015.png
+  artifactKey: Guid(5b8303ddd960e524ab06587904cc2110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_015.png using Guid(5b8303ddd960e524ab06587904cc2110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e680b57a6d3237a6dfa093324135db2') in 0.026604 seconds 
+  Import took 0.030924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_069.png
+  artifactKey: Guid(97d573ea86306aa4cb1024b30735b22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_069.png using Guid(97d573ea86306aa4cb1024b30735b22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3b8c56d9e97ac936fadf4f25b0e316') in 0.026799 seconds 
+  Import took 0.031210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_032.png
+  artifactKey: Guid(2055b012603d26d40a46ee10d29c3575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_032.png using Guid(2055b012603d26d40a46ee10d29c3575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e16a2106da01647a285ac7b3213f15') in 0.025493 seconds 
+  Import took 0.030740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_004.png
+  artifactKey: Guid(d7a09455ef2fb3b43afe753100e29bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_004.png using Guid(d7a09455ef2fb3b43afe753100e29bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7c126ec7268b8eda800cd14aa1325f') in 0.029883 seconds 
+  Import took 0.035638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_018.png
+  artifactKey: Guid(6392b63c0783bd9459fe9c6c970d0226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_018.png using Guid(6392b63c0783bd9459fe9c6c970d0226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e2e860c96c9194871d0563ae81fc45') in 0.031137 seconds 
+  Import took 0.037816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_039.png
+  artifactKey: Guid(fd4cdb6926d512b4baefcb9dbd4e8e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_039.png using Guid(fd4cdb6926d512b4baefcb9dbd4e8e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461a1d3a625c8d50c351be445671f932') in 0.026493 seconds 
+  Import took 0.031334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_080.png
+  artifactKey: Guid(d1bfcc6c9401e5d489a23637af45f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_080.png using Guid(d1bfcc6c9401e5d489a23637af45f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03ad5453b2ac7436684de17086f14f3') in 0.027333 seconds 
+  Import took 0.031662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_087.png
+  artifactKey: Guid(5e6e7ec57e19f1f4bbfd87fa0d8dee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_087.png using Guid(5e6e7ec57e19f1f4bbfd87fa0d8dee7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff08488e1d53c47046f477714f5a8451') in 0.028462 seconds 
+  Import took 0.033201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_005.png
+  artifactKey: Guid(d2b9c14f474b2b34f9ffbfccccdfa846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_005.png using Guid(d2b9c14f474b2b34f9ffbfccccdfa846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbc1dee79dd1e212ecc615250a90d56') in 0.024476 seconds 
+  Import took 0.029080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_023.png
+  artifactKey: Guid(6261ecf3d4955f34da892ac0da027b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_023.png using Guid(6261ecf3d4955f34da892ac0da027b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfa4b21a4405237c2b0a03aa9d39a09') in 0.024061 seconds 
+  Import took 0.028512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_034.png
+  artifactKey: Guid(d61df1cb1be476345bd26dca09dac767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_034.png using Guid(d61df1cb1be476345bd26dca09dac767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfba48a396641cef675fc18e3bbc8c5') in 0.021323 seconds 
+  Import took 0.026575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_037.png
+  artifactKey: Guid(fa5693a5db7a69141b951206fd3e741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_037.png using Guid(fa5693a5db7a69141b951206fd3e741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8690f8b9317695461994a6b302d2b5') in 0.022019 seconds 
+  Import took 0.026974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_082.png
+  artifactKey: Guid(947e43c828332b84189532426e4672c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_082.png using Guid(947e43c828332b84189532426e4672c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4752cecfd2d94946a50b4edbb7689558') in 0.024380 seconds 
+  Import took 0.029715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_063.png
+  artifactKey: Guid(510e50f92a8b40c4e92cba06a8ced45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_063.png using Guid(510e50f92a8b40c4e92cba06a8ced45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcb81d3e89fa995188d4a641710abf4') in 0.021597 seconds 
+  Import took 0.026269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_090.png
+  artifactKey: Guid(19f9771b6b3d3014fa3db55951c05a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_090.png using Guid(19f9771b6b3d3014fa3db55951c05a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb29b57aa88388d7f62bb2385bf6afa6') in 0.021751 seconds 
+  Import took 0.026509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_016.png
+  artifactKey: Guid(810cd8236ae774d49aa7ad029f52d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_016.png using Guid(810cd8236ae774d49aa7ad029f52d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7719266842ce69732e71e64b96a834ea') in 0.027056 seconds 
+  Import took 0.031559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.766015 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_034.asset
+  artifactKey: Guid(10bf7a08ce36fdc4a86cc48b73bd7f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_034.asset using Guid(10bf7a08ce36fdc4a86cc48b73bd7f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0584068da313f37d313de83f30c2f5') in 0.019156 seconds 
+  Import took 0.024015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.955825 seconds.
+  path: Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_005.asset
+  artifactKey: Guid(b1fda677894b9e543b4c14e4b3c31af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kenny/kenney_platformerpack_industrial/PNG/Default size/platformIndustrial_005.asset using Guid(b1fda677894b9e543b4c14e4b3c31af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7551336f90b2589be82eb08506009579') in 0.011145 seconds 
+  Import took 0.015918 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

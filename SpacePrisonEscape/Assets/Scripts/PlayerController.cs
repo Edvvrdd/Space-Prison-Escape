@@ -11,9 +11,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float rotationSpeed;
 
     [SerializeField] private LayerMask ground;
-    [SerializeField] private LayerMask rotationSwitch;
+    [SerializeField] private LayerMask envOverlap;
+   // [SerializeField] private LayerMask rotationSwitch;
 
-    [SerializeField] private GameObject RotatableEnvironment;
+  //  [SerializeField] private GameObject RotatableEnvironment;
 
     [SerializeField] private Collider2D collider2D;
 
@@ -62,7 +63,8 @@ public class PlayerController : MonoBehaviour
 
         return Physics2D.OverlapArea(topLeftPoint, bottomRightPoint, ground);
     }
-    private bool IsOnSwitch()
+
+    private bool IsOverlapEnv()
     {
         Vector2 topLeftPoint = transform.position;
         topLeftPoint.x -= collider2D.bounds.extents.x;
@@ -72,17 +74,19 @@ public class PlayerController : MonoBehaviour
         bottomRightPoint.x += collider2D.bounds.extents.x;
         bottomRightPoint.y -= collider2D.bounds.extents.y;
 
-        return Physics2D.OverlapArea(topLeftPoint, bottomRightPoint, rotationSwitch);
+        return Physics2D.OverlapArea(topLeftPoint, bottomRightPoint, envOverlap);
     }
-
     // Update is called once per frame
     void Update()
     {
         //read input from keyvboard action bindings
         float horizontalmovementInput = playerControlBindings.LandMovement.Move.ReadValue<float>();
-        float RotationInput = playerControlBindings.LandMovement.Rotate.ReadValue<float>();
+        // float verticalmovementInput = playerControlBindings.LandMovement.Climb.ReadValue<float>();
+       // float RotationInput = playerControlBindings.LandMovement.Rotate.ReadValue<float>();
 
-        //movement
+        Climb();
+
+        // horizontal movement ////
         if (horizontalmovementInput != 0)
         {
             GetComponent<Animator>().SetBool("IsRunning", true);
@@ -104,51 +108,90 @@ public class PlayerController : MonoBehaviour
         else
         {
             GetComponent<Animator>().SetBool("IsRunning", false);
-           // Debug.Log("NotRunning");
+            // Debug.Log("NotRunning");
         }
-        if (IsOnSwitch())
+    }  
+
+    void Climb()
+    {
+        //vertical movement (on ladder) ///////////
+        if (IsOverlapEnv())
         {
-            Debug.Log("OnSwitch");
-            //rotate player using enivronment rotation 
+            float verticalmovementInput = playerControlBindings.LandMovement.Climb.ReadValue<float>();
 
-           // this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-                //GetComponent<Rigidbody>();
-                //This locks the RigidBody so that it does not move or rotate in the Z axis.
-          //  m_Rigidbody.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
-           // {
-           /*     if (RotationInput < 0)
-                {
-                    Debug.Log("Reciving Left Rotation Input");
-                    // Rotate the object around its local X axis at 1 degree per second
-                    RotatableEnvironment.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
-                    this.transform.parent = RotatableEnvironment.transform;
-                   this.GetComponent<Rigidbody2D>().gravityScale = 0;
-                  //  this.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
-                }
-                if (RotationInput > 0)
-                {
-                    Debug.Log("Reciving Left Rotation Input");
-                    // Rotate the object around its local X axis at 1 degree per second
-                    RotatableEnvironment.transform.Rotate(Vector3.forward * -1 * rotationSpeed * Time.deltaTime);
-                    this.transform.parent = RotatableEnvironment.transform;
-                    this.GetComponent<Rigidbody2D>().gravityScale = 0;
-                    //this.transform.Rotate(Vector3.forward * -1 * rotationSpeed * Time.deltaTime);
-                }
+            Debug.Log("OnLadder");
+            this.GetComponent<Rigidbody2D>().gravityScale = 0.0f;
+            if (verticalmovementInput != 0)
+            {
+                Debug.Log("ClimbingLadder");
+                GetComponent<Animator>().SetBool("IsRunning", true);
 
-
-                // ...also rotate around the World's Y axis
-                //transform.Rotate(Vector3.up * 2 * Time.deltaTime, Space.World);
-
+                Vector3 currentPosition = transform.position;
+                currentPosition.y += verticalmovementInput * speed * Time.deltaTime;
+                transform.position = currentPosition;
             }
-            // }
+            else
+            { //not climbing
+                GetComponent<Animator>().SetBool("IsRunning", false);
+            }
         }
         else
         {
-            // unlock freezing 
-            this.transform.parent = null;
+            //Not overlapping ladder 
             this.GetComponent<Rigidbody2D>().gravityScale = 1;
-            // this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-           */
         }
     }
+
+
+    
 }
+
+
+
+
+
+// Rotate Environment if on switch 
+//if (IsOnSwitch())
+//{
+//    Debug.Log("OnSwitch");
+//rotate player using enivronment rotation 
+
+// this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+//GetComponent<Rigidbody>();
+//This locks the RigidBody so that it does not move or rotate in the Z axis.
+//  m_Rigidbody.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
+// {
+/*     if (RotationInput < 0)
+     {
+         Debug.Log("Reciving Left Rotation Input");
+         // Rotate the object around its local X axis at 1 degree per second
+         RotatableEnvironment.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
+         this.transform.parent = RotatableEnvironment.transform;
+        this.GetComponent<Rigidbody2D>().gravityScale = 0;
+       //  this.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
+     }
+     if (RotationInput > 0)
+     {
+         Debug.Log("Reciving Left Rotation Input");
+         // Rotate the object around its local X axis at 1 degree per second
+         RotatableEnvironment.transform.Rotate(Vector3.forward * -1 * rotationSpeed * Time.deltaTime);
+         this.transform.parent = RotatableEnvironment.transform;
+         this.GetComponent<Rigidbody2D>().gravityScale = 0;
+         //this.transform.Rotate(Vector3.forward * -1 * rotationSpeed * Time.deltaTime);
+     }
+
+
+     // ...also rotate around the World's Y axis
+     //transform.Rotate(Vector3.up * 2 * Time.deltaTime, Space.World);
+
+// }
+ // }
+}
+else
+{
+ // unlock freezing 
+ this.transform.parent = null;
+ this.GetComponent<Rigidbody2D>().gravityScale = 1;
+ // this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+*/
+// }
