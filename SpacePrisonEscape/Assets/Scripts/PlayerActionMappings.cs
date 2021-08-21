@@ -49,6 +49,14 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Reset"",
+                    ""type"": ""Button"",
+                    ""id"": ""e78e50cb-ddd4-4288-bbe5-6563d2fb5681"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -161,6 +169,17 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                     ""action"": ""Climb"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""894ff969-9977-4bd2-a925-41b71ae7b334"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Reset"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -173,6 +192,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         m_LandMovement_Jump = m_LandMovement.FindAction("Jump", throwIfNotFound: true);
         m_LandMovement_Rotate = m_LandMovement.FindAction("Rotate", throwIfNotFound: true);
         m_LandMovement_Climb = m_LandMovement.FindAction("Climb", throwIfNotFound: true);
+        m_LandMovement_Reset = m_LandMovement.FindAction("Reset", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -226,6 +246,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
     private readonly InputAction m_LandMovement_Jump;
     private readonly InputAction m_LandMovement_Rotate;
     private readonly InputAction m_LandMovement_Climb;
+    private readonly InputAction m_LandMovement_Reset;
     public struct LandMovementActions
     {
         private @PlayerActionMappings m_Wrapper;
@@ -234,6 +255,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         public InputAction @Jump => m_Wrapper.m_LandMovement_Jump;
         public InputAction @Rotate => m_Wrapper.m_LandMovement_Rotate;
         public InputAction @Climb => m_Wrapper.m_LandMovement_Climb;
+        public InputAction @Reset => m_Wrapper.m_LandMovement_Reset;
         public InputActionMap Get() { return m_Wrapper.m_LandMovement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -255,6 +277,9 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                 @Climb.started -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnClimb;
                 @Climb.performed -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnClimb;
                 @Climb.canceled -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnClimb;
+                @Reset.started -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnReset;
+                @Reset.performed -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnReset;
+                @Reset.canceled -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnReset;
             }
             m_Wrapper.m_LandMovementActionsCallbackInterface = instance;
             if (instance != null)
@@ -271,6 +296,9 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                 @Climb.started += instance.OnClimb;
                 @Climb.performed += instance.OnClimb;
                 @Climb.canceled += instance.OnClimb;
+                @Reset.started += instance.OnReset;
+                @Reset.performed += instance.OnReset;
+                @Reset.canceled += instance.OnReset;
             }
         }
     }
@@ -281,5 +309,6 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         void OnJump(InputAction.CallbackContext context);
         void OnRotate(InputAction.CallbackContext context);
         void OnClimb(InputAction.CallbackContext context);
+        void OnReset(InputAction.CallbackContext context);
     }
 }
