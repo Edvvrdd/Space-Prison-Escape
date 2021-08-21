@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class LevelController : MonoBehaviour
 {
     //making variable of type player action controls
     private PlayerActionMappings playerControlBindings;
+    
 
     [SerializeField] private System.String CurrentSceneName;
 
@@ -27,7 +29,7 @@ public class LevelController : MonoBehaviour
     private void Awake()
     {
         playerControlBindings = new PlayerActionMappings();
-
+      
     }
 
     //Enabling controls 
@@ -47,10 +49,8 @@ public class LevelController : MonoBehaviour
         //Display Player Objective
         //"Create a patyh to the exit"
 
-
-
     }
-    
+
     private void Jump()
     {
         // using action map to freeze all objects in level
@@ -94,16 +94,16 @@ public class LevelController : MonoBehaviour
 
             if ((RotationInput < 0) || (RotationInputWASD < 0))
             {
-                Debug.Log("Reciving Left Rotation Input");
+              //  Debug.Log("Reciving Left Rotation Input");
                 // Rotate the object around its local X axis at 1 degree per second
                 this.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
-                this.transform.parent = this.transform;
-                this.GetComponent<Rigidbody2D>().gravityScale = 0;
-                //  this.transform.Rotate(Vector3.forward * rotationSpeed * Time.deltaTime);
+                //this.transform.parent = this.transform;
+               // this.GetComponent<Rigidbody2D>().gravityScale = 0;
+                
             }
             if ((RotationInput > 0) || (RotationInputWASD > 0))
             {
-                Debug.Log("Reciving Left Rotation Input");
+              //  Debug.Log("Reciving Left Rotation Input");
                 // Rotate the object around its local X axis at 1 degree per second
                 this.transform.Rotate(Vector3.forward * -1 * rotationSpeed * Time.deltaTime);
 

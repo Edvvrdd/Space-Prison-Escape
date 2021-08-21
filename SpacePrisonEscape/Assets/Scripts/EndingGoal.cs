@@ -6,7 +6,7 @@ public class EndingGoal : MonoBehaviour
 {
     //making variable of type player action controls
     private PlayerActionMappings playerControlBindings;
-    //  [SerializeField] private Scene nextScene;
+    [SerializeField] private System.String NextLevelSceneName;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +30,7 @@ public class EndingGoal : MonoBehaviour
             //Left -> Replay
             //Right -> Next Level
             
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene(NextLevelSceneName);
         }
     }
 }

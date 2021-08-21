@@ -57,6 +57,14 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Select"",
+                    ""type"": ""Button"",
+                    ""id"": ""61b095a1-ea1e-4aaf-9e67-b4bd4c6eca0f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -180,6 +188,17 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                     ""action"": ""Reset"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8e3b90df-b2df-4bf1-bd2a-676780fee6ba"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Select"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -193,6 +212,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         m_LandMovement_Rotate = m_LandMovement.FindAction("Rotate", throwIfNotFound: true);
         m_LandMovement_Climb = m_LandMovement.FindAction("Climb", throwIfNotFound: true);
         m_LandMovement_Reset = m_LandMovement.FindAction("Reset", throwIfNotFound: true);
+        m_LandMovement_Select = m_LandMovement.FindAction("Select", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -247,6 +267,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
     private readonly InputAction m_LandMovement_Rotate;
     private readonly InputAction m_LandMovement_Climb;
     private readonly InputAction m_LandMovement_Reset;
+    private readonly InputAction m_LandMovement_Select;
     public struct LandMovementActions
     {
         private @PlayerActionMappings m_Wrapper;
@@ -256,6 +277,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         public InputAction @Rotate => m_Wrapper.m_LandMovement_Rotate;
         public InputAction @Climb => m_Wrapper.m_LandMovement_Climb;
         public InputAction @Reset => m_Wrapper.m_LandMovement_Reset;
+        public InputAction @Select => m_Wrapper.m_LandMovement_Select;
         public InputActionMap Get() { return m_Wrapper.m_LandMovement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -280,6 +302,9 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                 @Reset.started -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnReset;
                 @Reset.performed -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnReset;
                 @Reset.canceled -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnReset;
+                @Select.started -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnSelect;
+                @Select.performed -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnSelect;
+                @Select.canceled -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnSelect;
             }
             m_Wrapper.m_LandMovementActionsCallbackInterface = instance;
             if (instance != null)
@@ -299,6 +324,9 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                 @Reset.started += instance.OnReset;
                 @Reset.performed += instance.OnReset;
                 @Reset.canceled += instance.OnReset;
+                @Select.started += instance.OnSelect;
+                @Select.performed += instance.OnSelect;
+                @Select.canceled += instance.OnSelect;
             }
         }
     }
@@ -310,5 +338,6 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         void OnRotate(InputAction.CallbackContext context);
         void OnClimb(InputAction.CallbackContext context);
         void OnReset(InputAction.CallbackContext context);
+        void OnSelect(InputAction.CallbackContext context);
     }
 }
