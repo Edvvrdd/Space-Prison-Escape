@@ -15,10 +15,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private GameObject RotatableEnvironment;
 
-
-
-
-    private Collider2D collider2D;
+    [SerializeField] private Collider2D collider2D;
 
     private Rigidbody2D rb;
     void Awake()
@@ -47,6 +44,8 @@ public class PlayerController : MonoBehaviour
     {
         if (IsGrounded())
         {
+            Debug.Log("IsOnGround");
+
             rb.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
         }
     }
@@ -105,7 +104,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             GetComponent<Animator>().SetBool("IsRunning", false);
-            Debug.Log("NotRunning");
+           // Debug.Log("NotRunning");
         }
         if (IsOnSwitch())
         {
@@ -116,8 +115,8 @@ public class PlayerController : MonoBehaviour
                 //GetComponent<Rigidbody>();
                 //This locks the RigidBody so that it does not move or rotate in the Z axis.
           //  m_Rigidbody.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotationZ;
-            {
-                if (RotationInput < 0)
+           // {
+           /*     if (RotationInput < 0)
                 {
                     Debug.Log("Reciving Left Rotation Input");
                     // Rotate the object around its local X axis at 1 degree per second
@@ -149,6 +148,7 @@ public class PlayerController : MonoBehaviour
             this.transform.parent = null;
             this.GetComponent<Rigidbody2D>().gravityScale = 1;
             // this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+           */
         }
     }
 }
