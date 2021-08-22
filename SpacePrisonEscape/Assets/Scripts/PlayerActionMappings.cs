@@ -65,6 +65,14 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""QuitGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""9c8bd73f-f8ed-4944-8d00-9384b4c2788d"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -199,6 +207,17 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                     ""action"": ""Select"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""456d7806-0b7e-41d6-9a40-38714b323855"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""QuitGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -213,6 +232,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         m_LandMovement_Climb = m_LandMovement.FindAction("Climb", throwIfNotFound: true);
         m_LandMovement_Reset = m_LandMovement.FindAction("Reset", throwIfNotFound: true);
         m_LandMovement_Select = m_LandMovement.FindAction("Select", throwIfNotFound: true);
+        m_LandMovement_QuitGame = m_LandMovement.FindAction("QuitGame", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -268,6 +288,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
     private readonly InputAction m_LandMovement_Climb;
     private readonly InputAction m_LandMovement_Reset;
     private readonly InputAction m_LandMovement_Select;
+    private readonly InputAction m_LandMovement_QuitGame;
     public struct LandMovementActions
     {
         private @PlayerActionMappings m_Wrapper;
@@ -278,6 +299,7 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         public InputAction @Climb => m_Wrapper.m_LandMovement_Climb;
         public InputAction @Reset => m_Wrapper.m_LandMovement_Reset;
         public InputAction @Select => m_Wrapper.m_LandMovement_Select;
+        public InputAction @QuitGame => m_Wrapper.m_LandMovement_QuitGame;
         public InputActionMap Get() { return m_Wrapper.m_LandMovement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -305,6 +327,9 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                 @Select.started -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnSelect;
                 @Select.performed -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnSelect;
                 @Select.canceled -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnSelect;
+                @QuitGame.started -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnQuitGame;
+                @QuitGame.performed -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnQuitGame;
+                @QuitGame.canceled -= m_Wrapper.m_LandMovementActionsCallbackInterface.OnQuitGame;
             }
             m_Wrapper.m_LandMovementActionsCallbackInterface = instance;
             if (instance != null)
@@ -327,6 +352,9 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
                 @Select.started += instance.OnSelect;
                 @Select.performed += instance.OnSelect;
                 @Select.canceled += instance.OnSelect;
+                @QuitGame.started += instance.OnQuitGame;
+                @QuitGame.performed += instance.OnQuitGame;
+                @QuitGame.canceled += instance.OnQuitGame;
             }
         }
     }
@@ -339,5 +367,6 @@ public class @PlayerActionMappings : IInputActionCollection, IDisposable
         void OnClimb(InputAction.CallbackContext context);
         void OnReset(InputAction.CallbackContext context);
         void OnSelect(InputAction.CallbackContext context);
+        void OnQuitGame(InputAction.CallbackContext context);
     }
 }

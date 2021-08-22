@@ -9,6 +9,8 @@ public class MenuCollisions : MonoBehaviour
 
     [SerializeField] private System.String StartingLevelName;
 
+    [SerializeField] GameObject CreditsText;
+
     public bool isStart;
     public bool isOption;
 
@@ -34,25 +36,27 @@ public class MenuCollisions : MonoBehaviour
 
     void Jump()
     {
-        if(isStart)
-        {
+      //  if(isStart)
+      //  {
             //load starting level
             SceneManager.LoadScene(StartingLevelName);
 
-        }
-        if(isOption)
-        {
-            //load option menu
-        }
+      //  }
+        //if(isOption)
+       // {
+      //      //load option menu
+      //      CreditsText.SetActive(true);
+      //  }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("MenuTagTop"))
         {
-            Debug.Log("Options");
+            Debug.Log("Credits");
             isOption = true;
 
+            CreditsText.SetActive(true);
             isStart = false;
         }
         if (collision.CompareTag("MenuTagBottom"))
@@ -60,6 +64,8 @@ public class MenuCollisions : MonoBehaviour
             isOption = false;
             Debug.Log("Start");
             isStart = true;
+            CreditsText.SetActive(false);
+
         }
     }
 }

@@ -13644,7 +13644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336126150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.35, y: -3.23, z: 2.3}
+  m_LocalPosition: {x: 3.35, y: -3.69, z: 2.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1402261907}
@@ -13666,7 +13666,6 @@ MonoBehaviour:
   IsFinalLevel: 0
   escapedText: {fileID: 0}
   ContinueText: {fileID: 0}
-  particleSystem: {fileID: 20297052}
 --- !u!61 &336126153
 BoxCollider2D:
   m_ObjectHideFlags: 0

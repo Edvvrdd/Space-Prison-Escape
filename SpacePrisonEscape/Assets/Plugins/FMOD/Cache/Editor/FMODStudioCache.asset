@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!114 &-8074396879217684216
+=======
+--- !u!114 &11400000
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,6 +13,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
@@ -21,6 +26,24 @@ MonoBehaviour:
     Value: 796
   Exists: 1
 --- !u!114 &-7668192293906408915
+=======
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 2804796667732314395}
+  - {fileID: 7366248800440971925}
+  EditorEvents:
+  - {fileID: 4541117141461170524}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 7366248800440971925}
+  StringsBanks:
+  - {fileID: 2804796667732314395}
+  stringsBankWriteTime: 637652040312991423
+  cacheVersion: 8
+--- !u!114 &2804796667732314395
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,6 +53,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+<<<<<<< Updated upstream
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
   Path: Assets/Fmod/KennyAudio/Build/Desktop/Master.bank
@@ -41,6 +65,19 @@ MonoBehaviour:
     Value: 281504
   Exists: 1
 --- !u!114 &-6832764146041361757
+=======
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/KennyAudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637652040312991423
+  FileSizes:
+  - Name: Desktop
+    Value: 748
+  Exists: 1
+--- !u!114 &3542495227079644367
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -50,6 +87,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+<<<<<<< Updated upstream
   m_Name: event:/StartMusic
   m_EditorClassIdentifier: 
   Path: event:/StartMusic
@@ -60,11 +98,25 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
+=======
+  m_Name: event:/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/New Event
+  guid: 8ea8164a3ce5394d81e9e8375f19f179
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+>>>>>>> Stashed changes
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
   Length: 20851
+<<<<<<< Updated upstream
 --- !u!114 &11400000
+=======
+--- !u!114 &4541117141461170524
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,6 +125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
@@ -90,6 +143,23 @@ MonoBehaviour:
   stringsBankWriteTime: 637652040236432721
   cacheVersion: 8
 --- !u!114 &5075922058949477388
+=======
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/KennyEvent
+  m_EditorClassIdentifier: 
+  Path: event:/KennyEvent
+  guid: 8ea8164a3ce5394d81e9e8375f19f179
+  Banks:
+  - {fileID: 7366248800440971925}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 20851
+--- !u!114 &7366248800440971925
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,6 +169,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+<<<<<<< Updated upstream
   m_Name: bank:/Kenny.bank
   m_EditorClassIdentifier: 
   Path: Assets/Fmod/KennyAudio/Build/Desktop/Kenny.bank
@@ -131,3 +202,15 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 20851
+=======
+  m_Name: bank:/KennyAudio/Build/Desktop/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/KennyAudio/Build/Desktop/Master.bank
+  Name: KennyAudio/Build/Desktop/Master
+  StudioPath: bank:/Master
+  lastModified: 637652040312961417
+  FileSizes:
+  - Name: Desktop
+    Value: 281376
+  Exists: 1
+>>>>>>> Stashed changes

@@ -45,6 +45,7 @@ public class LevelController : MonoBehaviour
     void Start()
     {
         playerControlBindings.LandMovement.Jump.performed += _ => Jump();
+        playerControlBindings.LandMovement.QuitGame.performed += _ => QuitGame();
 
         playerControlBindings.LandMovement.Reset.performed += _ => Reset();
         //Display Player Objective
@@ -62,7 +63,11 @@ public class LevelController : MonoBehaviour
             
             SpawnPlayer();
         }
-        
+    }
+
+   private void QuitGame()
+    {
+        Application.Quit();
     }
 
     private void Reset()
