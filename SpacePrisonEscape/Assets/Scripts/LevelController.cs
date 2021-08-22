@@ -21,6 +21,8 @@ public class LevelController : MonoBehaviour
 
     [SerializeField] private GameObject PlayerSpawn;
 
+    [SerializeField] private ParticleSystem particleSystem;
+
 
     private bool HasRotated = false;
     private bool HasSpawnedPlayer = false;
@@ -55,7 +57,12 @@ public class LevelController : MonoBehaviour
         // using action map to freeze all objects in level
         Stasis();
         //after finish rotating level player may pawn
-        SpawnPlayer();
+        if(PlayerSpawn)
+        {
+            
+            SpawnPlayer();
+        }
+        
     }
 
     private void Reset()
@@ -78,6 +85,7 @@ public class LevelController : MonoBehaviour
         //Spawn Player at spawnLocation
         if (!HasSpawnedPlayer)
         {
+            particleSystem.Play(true);
             Instantiate(PlayerSpawn, SpawnLoacation.position, Quaternion.identity);
             HasSpawnedPlayer = true;
         }

@@ -15,6 +15,8 @@ public class EndingGoal : MonoBehaviour
     [SerializeField] GameObject escapedText;
     [SerializeField] GameObject ContinueText;
 
+    
+
 
     void Awake()
     {
@@ -63,6 +65,8 @@ public class EndingGoal : MonoBehaviour
             }
             else
             {
+                //player partcle effects     
+
                 SceneManager.LoadScene(NextLevelSceneName);
             }
            
@@ -75,4 +79,7 @@ public class EndingGoal : MonoBehaviour
             SceneManager.LoadScene(NextLevelSceneName);
         }
     }
+
+
 }
+
