@@ -17,6 +17,7 @@ Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 51532
 Successfully changed project path to: E:/GameDev/Udemy Unity File/Space-Prison-Escape/SpacePrisonEscape
 E:/GameDev/Udemy Unity File/Space-Prison-Escape/SpacePrisonEscape
@@ -36,6 +37,13 @@ E:/GameDev/Udemy Unity File/Space-Prison-Escape/SpacePrisonEscape
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 100.34 ms, found 3 plugins.
 >>>>>>> Stashed changes
+=======
+63811
+Successfully changed project path to: S:/Space Prison Escape/Space-Prison-Escape/SpacePrisonEscape
+S:/Space Prison Escape/Space-Prison-Escape/SpacePrisonEscape
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 92.71 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -53,6 +61,7 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBl
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
@@ -60,11 +69,15 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 >>>>>>> Stashed changes
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.002891 seconds.
@@ -81,14 +94,18 @@ Domain Reload Profiling:
 	ReloadAssembly (1509ms)
 =======
 Registered in 0.003508 seconds.
+=======
+Registered in 0.003867 seconds.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.339 seconds
+- Completed reload, in  2.278 seconds
 Domain Reload Profiling:
+<<<<<<< Updated upstream
 	ReloadAssembly (2339ms)
 >>>>>>> Stashed changes
 		BeginReloadAssembly (66ms)
@@ -96,11 +113,16 @@ Domain Reload Profiling:
 	ReloadAssembly (1515ms)
 		BeginReloadAssembly (68ms)
 >>>>>>> Stashed changes
+=======
+	ReloadAssembly (2279ms)
+		BeginReloadAssembly (62ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		EndReloadAssembly (562ms)
 			LoadAssemblies (65ms)
@@ -113,9 +135,14 @@ Domain Reload Profiling:
 =======
 		EndReloadAssembly (534ms)
 			LoadAssemblies (63ms)
+=======
+		EndReloadAssembly (543ms)
+			LoadAssemblies (60ms)
+>>>>>>> Stashed changes
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
+<<<<<<< Updated upstream
 			RebuildScriptCaches (32ms)
 			SetupLoadedEditorAssemblies (241ms)
 >>>>>>> Stashed changes
@@ -123,9 +150,14 @@ Domain Reload Profiling:
 			RebuildScriptCaches (36ms)
 			SetupLoadedEditorAssemblies (261ms)
 >>>>>>> Stashed changes
+=======
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (242ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				RefreshPlugins (105ms)
@@ -138,17 +170,19 @@ Domain Reload Profiling:
 >>>>>>> Stashed changes
 				ProcessInitializeOnLoadMethodAttributes (34ms)
 =======
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+=======
 >>>>>>> Stashed changes
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.005916 seconds.
@@ -167,15 +201,19 @@ Domain Reload Profiling:
 		BeginReloadAssembly (177ms)
 =======
 Registered in 0.003817 seconds.
+=======
+Registered in 0.003807 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.420 seconds
+- Completed reload, in  1.405 seconds
 Domain Reload Profiling:
+<<<<<<< Updated upstream
 	ReloadAssembly (1421ms)
 		BeginReloadAssembly (164ms)
 >>>>>>> Stashed changes
@@ -183,10 +221,15 @@ Domain Reload Profiling:
 	ReloadAssembly (1471ms)
 		BeginReloadAssembly (178ms)
 >>>>>>> Stashed changes
+=======
+	ReloadAssembly (1406ms)
+		BeginReloadAssembly (167ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (21ms)
 		EndReloadAssembly (1210ms)
@@ -201,9 +244,15 @@ Domain Reload Profiling:
 			CreateAndSetChildDomain (22ms)
 		EndReloadAssembly (1181ms)
 			LoadAssemblies (152ms)
+=======
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1162ms)
+			LoadAssemblies (106ms)
+>>>>>>> Stashed changes
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (1ms)
+<<<<<<< Updated upstream
 			RebuildScriptCaches (57ms)
 			SetupLoadedEditorAssemblies (484ms)
 >>>>>>> Stashed changes
@@ -211,9 +260,14 @@ Domain Reload Profiling:
 			RebuildScriptCaches (61ms)
 			SetupLoadedEditorAssemblies (520ms)
 >>>>>>> Stashed changes
+=======
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (495ms)
+>>>>>>> Stashed changes
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				RefreshPlugins (102ms)
 				BeforeProcessingInitializeOnLoad (99ms)
@@ -241,25 +295,35 @@ Total: 4.039300 ms (FindLiveObjects: 0.358400 ms CreateObjectMapping: 0.076100 m
 				BeforeProcessingInitializeOnLoad (92ms)
 				ProcessInitializeOnLoadAttributes (270ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
+=======
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2462 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 111.1 MB.
 System memory in use after: 111.3 MB.
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2911.
+<<<<<<< Updated upstream
 Total: 4.014700 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.061500 ms MarkObjects: 3.608700 ms  DeleteObjects: 0.034300 ms)
 >>>>>>> Stashed changes
 =======
 Total: 4.199300 ms (FindLiveObjects: 0.335600 ms CreateObjectMapping: 0.072900 ms MarkObjects: 3.749300 ms  DeleteObjects: 0.039900 ms)
+=======
+Total: 3.820500 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.065000 ms MarkObjects: 3.478000 ms  DeleteObjects: 0.035800 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -274,6 +338,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   path: Assets/Scenes/Jail_part_1.unity
   artifactKey: Guid(3de1f0ddffdd23742bab1364218a4936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Jail_part_1.unity using Guid(3de1f0ddffdd23742bab1364218a4936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1698e5193e9931f6a54bf92e1509d68b') in 0.023276 seconds 
@@ -7319,18 +7384,39 @@ System memory in use after: 109.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2914.
 Total: 3.651900 ms (FindLiveObjects: 0.348400 ms CreateObjectMapping: 0.070800 ms MarkObjects: 3.205800 ms  DeleteObjects: 0.025300 ms)
+=======
+  path: Assets/Scenes/Gym_part_1.unity
+  artifactKey: Guid(7b772d6d66bbd074d8731e358eb8830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gym_part_1.unity using Guid(7b772d6d66bbd074d8731e358eb8830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e221e01fed1c7db7e30039f52268450e') in 0.019765 seconds 
+  Import took 0.025343 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Scenes/Jail_part_1.unity
+  artifactKey: Guid(3de1f0ddffdd23742bab1364218a4936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jail_part_1.unity using Guid(3de1f0ddffdd23742bab1364218a4936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4fcb68a04ae7be1153ae5c45958e21') in 0.007267 seconds 
+  Import took 0.011839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Scenes/Cargo_escape.unity
+  artifactKey: Guid(506f6d1a7b37b3c45803bcd7b082c874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cargo_escape.unity using Guid(506f6d1a7b37b3c45803bcd7b082c874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d6a9c3d3b47eb0027b7e7e1a263b96') in 0.008091 seconds 
+  Import took 0.012861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Scenes/Cargo_part_1.unity
+  artifactKey: Guid(e907e5e0fbac64840ad1984af73362d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cargo_part_1.unity using Guid(e907e5e0fbac64840ad1984af73362d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99b74c690c368f77f0458860aa1d4aa') in 0.008296 seconds 
+  Import took 0.012666 seconds .
+>>>>>>> Stashed changes
+
+========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.003817 seconds.
@@ -7388,22 +7474,17 @@ Total: 3.760000 ms (FindLiveObjects: 0.305700 ms CreateObjectMapping: 0.068000 m
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3282.
 Total: 4.094500 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.077200 ms MarkObjects: 3.590700 ms  DeleteObjects: 0.021800 ms)
 >>>>>>> Stashed changes
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-<<<<<<< Updated upstream
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
 =======
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Scenes/Jail_part_2.unity
+  artifactKey: Guid(767e6e262a25bbf47ba9e775a3a66f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jail_part_2.unity using Guid(767e6e262a25bbf47ba9e775a3a66f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21edf933ac6c7fc1e765c5a5ac7a7229') in 0.007830 seconds 
+  Import took 0.012907 seconds .
 >>>>>>> Stashed changes
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< Updated upstream
@@ -7494,18 +7575,17 @@ System memory in use after: 109.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2920.
 Total: 6.649300 ms (FindLiveObjects: 0.614500 ms CreateObjectMapping: 0.161300 ms MarkObjects: 5.833600 ms  DeleteObjects: 0.037000 ms)
+=======
+Received Import Request.
+  Time since last request: 0.732226 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(f81d433ca7cbb774abbb5dc90683a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(f81d433ca7cbb774abbb5dc90683a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55085ceed4a1b21b7c98a5d47b47e5bd') in 0.002269 seconds 
+  Import took 0.007398 seconds .
+>>>>>>> Stashed changes
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< Updated upstream
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.004221 seconds.
@@ -9185,4 +9265,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+Received Import Request.
+  Time since last request: 3.210444 seconds.
+  path: Assets/Scenes/TestLevel.unity
+  artifactKey: Guid(8439e8120c00ff7459b0cd8e93854111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestLevel.unity using Guid(8439e8120c00ff7459b0cd8e93854111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9268bc40b6e99c5a6e87e46e2b54fd25') in 0.006967 seconds 
+  Import took 0.012445 seconds .
+
+>>>>>>> Stashed changes
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
