@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a8988c1855bfb24f93e215f6f7573a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentSceneName: 
+  CurrentSceneName: MainMenu
   rotationSpeed: 100
   SpawnLoacation: {fileID: 0}
   ObjectArray: []

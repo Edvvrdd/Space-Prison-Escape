@@ -17,7 +17,6 @@ public class LevelController : MonoBehaviour
 
     [SerializeField] private Transform SpawnLoacation;
 
-
     [SerializeField] private GameObject[] ObjectArray;
 
     [SerializeField] private GameObject PlayerSpawn;
