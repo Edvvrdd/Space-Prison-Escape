@@ -7,6 +7,8 @@ public class MenuCollisions : MonoBehaviour
 {
     private PlayerActionMappings playerControlBindings;
 
+    [SerializeField] private GameObject CreditsText;
+
     [SerializeField] private System.String StartingLevelName;
 
     public bool isStart;
@@ -34,24 +36,17 @@ public class MenuCollisions : MonoBehaviour
 
     void Jump()
     {
-        if(isStart)
-        {
             //load starting level
-            SceneManager.LoadScene(StartingLevelName);
-
-        }
-        if(isOption)
-        {
-            //load option menu
-        }
+            SceneManager.LoadScene(StartingLevelName);       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("MenuTagTop"))
         {
-            Debug.Log("Options");
+            Debug.Log("Credits");
             isOption = true;
+            CreditsText.SetActive(true);
 
             isStart = false;
         }

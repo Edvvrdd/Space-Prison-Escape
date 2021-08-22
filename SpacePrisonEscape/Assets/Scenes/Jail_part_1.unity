@@ -12281,7 +12281,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -21.00753, y: 0, z: 0, w: 0}
+  m_margin: {x: -21.00753, y: 0, z: 52.786472, w: -36.038105}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -13666,7 +13666,6 @@ MonoBehaviour:
   IsFinalLevel: 0
   escapedText: {fileID: 0}
   ContinueText: {fileID: 0}
-  particleSystem: {fileID: 20297052}
 --- !u!61 &336126153
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14081,7 +14080,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_TargetDisplay: 0
 --- !u!224 &1018889564
 RectTransform:
