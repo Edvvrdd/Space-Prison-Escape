@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 82a841879e7fbf8429c6cb3d0dcc7259
+=======
+guid: 7d0ca2e96281aa64a9611cf7652cc8b9
+>>>>>>> Stashed changes
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -22,11 +26,19 @@ PluginImporter:
       enabled: 1
       settings:
         CPU: x86_64
+<<<<<<< Updated upstream
+=======
+        DefaultValueInitialized: true
+>>>>>>> Stashed changes
         OS: Windows
   - first:
       Standalone: Win64
     second:
+<<<<<<< Updated upstream
       enabled: 1
+=======
+      enabled: 0
+>>>>>>> Stashed changes
       settings: {}
   userData: 
   assetBundleName: 

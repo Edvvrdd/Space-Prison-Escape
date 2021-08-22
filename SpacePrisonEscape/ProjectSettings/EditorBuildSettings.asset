@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Jail_part_2.unity
-    guid: 767e6e262a25bbf47ba9e775a3a66f51
+    path: Assets/Scenes/MainMenu.unity
+    guid: f81d433ca7cbb774abbb5dc90683a922
   - enabled: 1
     path: Assets/Scenes/Jail_part_1.unity
     guid: 3de1f0ddffdd23742bab1364218a4936
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: f81d433ca7cbb774abbb5dc90683a922
+    path: Assets/Scenes/Jail_part_2.unity
+    guid: 767e6e262a25bbf47ba9e775a3a66f51
   - enabled: 1
     path: Assets/Scenes/Gym_part_1.unity
     guid: 7b772d6d66bbd074d8731e358eb8830a
